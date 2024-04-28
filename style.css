@@ -1,0 +1,31 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: plum;
+  }
+  
+
+  
+  
+  .img-background-horizontal {
+    background-image: url("./moni.jpg");
+    background-size: 105vw auto;
+    background-position: 0% 0%;
+    height: 100vh;
+    width: 100vw;
+    animation: horizontalMove 50s infinite;
+    animation-timing-function: ease;
+  }
+  
+  @keyframes horizontalMove {
+    0% {
+      background-position: 0% 0%;
+    }
+    50% {
+      background-position: 100% 20%;
+    }
+    100% {
+      background-position: 0% 0%;
+    }
+  }
+  
